@@ -15,6 +15,9 @@ public:
 };
 
 // class template specialization:
+// template spesialis yaitu dimana untuk tipe data tertentu
+// maka dilakukan pemrosesan berbeda seperti contoh dibawah ini
+// dimana aksi spesial untuk tipe data char
 template <>
 class mycontainer <char> {
 	char element;
